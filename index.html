@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Masteralb.com</title>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600' rel='stylesheet'>
+  <link href='stylesheets/font.css' rel='stylesheet'>
+  <link href='stylesheets/icons.css' rel='stylesheet'>
+  <link href='stylesheets/main.css' rel='stylesheet'>
+</head>
+<body>
+
+  <header class='logo-top'>
+    <a href='#logo_top'><img src='images/logo_top.png' alt=''></a>
+  </header>
+
+  <main class='container'>
+    <div class='row'>
+      <div class='col'>
+
+        <!-- Register --------------------------------------------------------->
+        <form class='form' action='#register_form'>
+          <fieldset class='form-body'>
+
+            <legend class='form-title'>Register form</legend>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--user'></span></span>
+                <input type='text' aria-label='Username' placeholder='Username'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--lock'></span></span>
+                <input type='password' aria-label='Password' placeholder='Password'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--lock'></span></span>
+                <input type='password' aria-label='Confirm Password' placeholder='Confirm password'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--envelope'></span></span>
+                <input type='email' aria-label='Email' placeholder='Email'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--marker'></span></span>
+                <select>
+                  <option selected disabled>Your Location</option>
+                  <option value='1'>Mercury</option>
+                  <option value='2'>Venus</option>
+                  <option value='3'>Earth</option>
+                  <option value='4'>Mars</option>
+                  <option value='5'>Jupiter</option>
+                  <option value='6'>Saturn</option>
+                  <option value='7'>Uranus</option>
+                  <option value='8'>Neptune</option>
+                </select>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-checkbox' tabindex='0'>
+                <input type='checkbox' id='terms' tabindex='-1' checked>
+                <label for='terms'>I have read and accept the terms of use</label>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <button class='form-button form-button--large' type='submit'>Sign up</button>
+            </div>
+
+          </fieldset>
+        </form>
+        <!-- /Register -------------------------------------------------------->
+
+        <!-- Email ------------------------------------------------------------>
+        <form class='form' action='#email_form'>
+          <fieldset class='form-body'>
+
+            <legend class='form-title'>Send email</legend>
+            
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--user'></span></span>
+                <input type='text' aria-label='Your Name' placeholder='Your Name'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--envelope'></span></span>
+                <input type='email' aria-label='Your Email' placeholder='Your Email'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <textarea name='' id='' rows='11' placeholder='Type your message...'></textarea>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-checkbox' tabindex='0'>
+                <input type='checkbox' id='copy' tabindex='-1' checked>
+                <label for='copy'>Send a copy to my Email</label>
+              </div>
+            </div>
+
+             <div class='form-row'>
+              <button class='form-button form-button--large' type='submit'>Send Email</button>
+            </div>
+
+          </fieldset>
+        </form>
+        <!-- /Email ----------------------------------------------------------->
+      </div>
+
+      <div class='col'>
+        <!-- Sign in  --------------------------------------------------------->
+        <form class='form' action='#sign_in_form'>
+          <fieldset class='form-body'>
+
+            <legend class='form-title'>Sign in form</legend>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--user'></span></span>
+                <input type='text' aria-label='Username' placeholder='Username'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--lock'></span></span>
+                <input type='password' aria-label='Password' placeholder='Password'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-col'>
+                <div class='form-checkbox' tabindex='0'>
+                  <input type='checkbox' id='remember' tabindex='-1' checked>
+                  <label for='remember'>Remember me</label>
+                </div>
+              </div>
+              <div class='form-col'>
+                <button class='form-button' type='submit'>Sign in</button>
+              </div>
+            </div>
+
+          </fieldset>
+        </form>
+        <!-- /Sign in  -------------------------------------------------------->
+
+        <!-- Recover ---------------------------------------------------------->
+        <form class='form' action='#recover_form'>
+          <fieldset class='form-body'>
+
+            <legend class='form-title'>Recover form</legend>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--envelope'></span></span>
+                <input type='email' aria-label='Enter your Email' placeholder='Enter your Email'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--phone'></span></span>
+                <input type='text' aria-label='Enter your Phone number' placeholder='Enter your Phone number'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-col'>
+                <button class='form-button' type='submit'>Send</button>
+              </div>
+              <div class='form-col'>
+                <button class='form-button' type='button' disabled>Done</button>
+              </div>
+            </div>
+
+          </fieldset>
+        </form>
+        <!-- /Recover --------------------------------------------------------->
+
+        <!-- Subscribe -------------------------------------------------------->
+        <form class='form' action='#subscribe_form'>
+          <fieldset class='form-body'>
+
+            <legend class='form-title'>Subscribe form</legend>
+
+            <div class='form-row'>
+              <div class='form-control'>
+                <span class='form-control-icon'><span class='icon icon--envelope'></span></span>
+                <input type='email' aria-label='Enter Your Email' placeholder='Enter Your Email'>
+              </div>
+            </div>
+
+            <div class='form-row'>
+              <div class='form-col'>
+                <button class='form-button' type='submit'>Subscribe</button>
+              </div>
+              <div class='form-col'>
+                <button class='form-button form-button--red' type='reset'>No, Thanks</button>
+              </div>
+            </div>
+
+          </fieldset>
+        </form>
+        <!-- /Subscribe ------------------------------------------------------->
+
+        <div class='logo-bottom'>
+          <a href='#logo_bottom'><img src='images/logo_bottom.png' alt=''></a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
